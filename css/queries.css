@@ -1,0 +1,50 @@
+@media (min-width: 900px){
+  #cab-d1{
+    width: 40%;
+    float: left;
+    padding-left: 5%;
+    margin-left: 5%;
+    text-align: left;
+  }
+  #cab-d2{
+    text-align: right;
+    width: 45%;
+    float: left;
+    padding-top: 2%;
+  }
+
+  .imgSecundaria img{
+    width: 50vh;
+    height: 15vw;
+	  max-width: 50%;
+  }
+  .imgIzq, .imgDer{
+    width: 50%;
+    float: left;
+  }
+
+  .imagenes{
+    width: 33.3%;
+    float: left;
+    padding-bottom: 3%;
+  }
+  .galeria img{
+    width: 50vh;
+    height: 15vw;
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #contacto, #terminos, #redes, #derechos{
+    width: 23%;
+    float: left;
+  }
+  #contacto{
+    padding-left: 2%;
+    margin-left: 2%;
+  }
+  .piePagina #redes img{
+    width: 6%;
+  }
+}

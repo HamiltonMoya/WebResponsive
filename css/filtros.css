@@ -1,0 +1,17 @@
+@media screen {
+
+  .imagenes #img1{
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+  }
+  .imagenes:nth-child(even){
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+
+  .imagenes #img3{
+    filter: sepia(90%);
+    -webkit-filter: sepia(90%);
+  }
+
+}

@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Dancing';
+  src: url('../fuentes/DancingScript.otf');
+}
+
+body{
+    font-family: 'Dancing';
+    background-color: black;
+}
+
+.contenedorPrincipal{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  text-align: center;
+  color: black;
+}
+
+.cabecera{
+  width: 100%;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+#cab-d1{
+  width: 100%;
+}
+#cab-d2{
+  width: 100%;
+}
+#menu-principal ul{
+  text-align: center;
+}
+#menu-principal ul li{
+  display: inline;
+  padding-right: 4%;
+}
+#menu-principal li a:link, #menu-principal li a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+.imgCentral{
+  width: 100%;
+  text-align: center;
+  background-color: #82c3a6;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.imgCentral img{
+  width: 75%;
+  max-width: 75%;
+  box-shadow: 1px 1px 2px white,0 0 30px #02010a;
+}
+
+.imgSecundaria{
+  width: 100%;
+  text-align: center;
+  background-color: #d5c75f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.imgSecundaria #Izquierda{
+  width: 55%;
+  max-width: 55%;
+  box-shadow: 1px 1px 2px white,0 0 30px #02010a;
+}
+.imgSecundaria #Derecha{
+  width: 52%;
+  max-width: 52%;
+  box-shadow: 1px 1px 2px white,0 0 30px #02010a;
+}
+
+.piePagina{
+  width: 100%;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+}
+.piePagina div{
+  padding-left: 10px;
+  text-align: left;
+}
+.piePagina .pies{
+  font-variant: small-caps;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+}
+.piePagina img{
+  width: 3%;
+}
+.piePagina #redes a:link, .piePagina #redes a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.galeria{
+  width: 100%;
+  text-align: center;
+  background-color: #d5c75f;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.imagenes{
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.galeria img{
+  background-color: red;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  width: 50%;
+  max-width: 50%;
+  box-shadow: 1px 1px 2px white,0 0 30px #02010a;
+}

@@ -1,0 +1,32 @@
+
+.imgSecundaria #Izquierda{
+    border: 2px solid black;
+   -webkit-transition: all 0.5s ease-out;
+   -moz-transition: all 0.5s ease;
+   -ms-transition: all 0.5s ease;
+}
+.imgSecundaria #Izquierda:hover{
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+
+
+.imgDer{
+  position: relative;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.imgSecundaria #Derecha{
+  position: relative;
+  border: 2px solid black;
+}
+.imgSecundaria #Derecha:hover{
+  -webkit-transform: translate(20px, -5px);
+  -moz-transform: translate(20px, -5px);
+  -ms-transform: translate(20px, -5px);
+  transform: translate(20px, -5px);
+}
